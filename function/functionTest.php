@@ -35,6 +35,7 @@ function StudentInfo($name ="Unknown", $roll ="Unknown", $semester="Unknown"){
     //sum 
 
     function sum($a,$b){
+        echo "The Addition result is =";
         echo $a+$b;
         echo "<br>";
 
@@ -43,3 +44,24 @@ function StudentInfo($name ="Unknown", $roll ="Unknown", $semester="Unknown"){
     sum(3,7);
     sum(20,10);
     sum(75,15);
+
+   echo "====================<br>";
+
+    //make a mini calculation with using function 
+
+    function Calculator($a, $b){
+        $add =$a+$b;
+        echo "The Addition is =  $add <br>";
+
+        $sub = $a-$b;
+        echo "The Summition is =  $sub <br>";
+
+        $mul = $a*$b;
+        echo "The Multiplication is =  $mul <br> ";
+
+        $div = $a/$b;
+        echo "The Divide is =  $div <br>";
+
+    }
+
+    Calculator(20,10);
