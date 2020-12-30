@@ -64,4 +64,4 @@ function StudentInfo($name ="Unknown", $roll ="Unknown", $semester="Unknown"){
 
     }
 
-    Calculator(20,10);
+    Calculator(20,10); 
