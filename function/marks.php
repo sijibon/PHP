@@ -13,6 +13,7 @@ function percentage($subTotal){
 
   return $per;
 }
+
 $result = percentage(sub(40,40,20));
 
 echo "The result is ". $result ."%";
