@@ -2,7 +2,7 @@
 
 
 
-econ "ki koros bondu"
+echo "ki koros bondu";
 echo "hello jibon";
-change
+
 
