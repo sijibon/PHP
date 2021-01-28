@@ -21,7 +21,6 @@ echo "Time now  ".date("h:i:s A")."<br>";//full time shows
 
 
 echo "Time and Date Today's  ".date("d/m/Y h:i:s A")."<br>";//full time shows
-
 echo "Time and Date Today's  ".date("l, F, d, Y h:i:s A")."<br>";//full time shows
 
 // date_default_timezone_set();//it show local time and date for any others country's
